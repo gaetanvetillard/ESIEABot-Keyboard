@@ -1,0 +1,5 @@
+/venv
+/joystick_control
+/.vscode
+/__pycache__
+/test.py
