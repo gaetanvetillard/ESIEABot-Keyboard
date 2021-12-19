@@ -18,7 +18,7 @@ while 1:
     elif x == "q": leftSpin()
     elif x == "d": rightSpin()
     elif x == "t": stop()
-  else: 
-    stop()
-  
-termios.tcsetattr(sys.stdin, termios.TCSADRAIN, filedescriptors)
+    elif x == "x": 
+      stop()
+      termios.tcsetattr(sys.stdin, termios.TCSADRAIN, filedescriptors)
+      exit()
